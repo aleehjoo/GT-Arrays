@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         //1D Array for names
+        System.out.println("List of 10 names in a 1D array");
         String[] names = {"Juan", "Pedro", "Carlos", "Pacita", "Alejandro", "Ricardo", "Rodolfo", "Gonzalo", "Fidel", "Jesus"};
 
         for (int i = 0; i < names.length; i++) {
             System.out.print(names[i] + " ");
         }
 
-        System.out.println();
+        System.out.println("\n\nSum of 20 elements in a 1D array");
         //1D Array with 20 Elements
-
         int sum = 0;
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
